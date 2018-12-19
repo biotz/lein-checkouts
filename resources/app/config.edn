@@ -1,0 +1,11 @@
+{:duct.core/project-ns  app
+ :duct.core/environment :production
+
+ :duct.module/logging {}
+ :duct.module/web {}
+ 
+ :duct.router/cascading
+ [#ig/ref :app.handler/example]
+
+ :app.handler/example
+ {}}
