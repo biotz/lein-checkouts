@@ -5,4 +5,4 @@
   [x]
   {:headers {"content-type" "text/html"}
    :status 200
-   :body "Hello! 123456"})
+   :body "Hello from endpoint1!"})
