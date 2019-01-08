@@ -14,5 +14,5 @@ find "${CHECKOUTS_SOURCES}" -type f -name "project.clj" -print0 |
         pushd "${MODULE_DIR}" > /dev/null
         lein install
         popd > /dev/null
-        ln -s "${MODULE_DIR}" checkouts/
+        ln -s ../"${MODULE_DIR}" checkouts/
     done
